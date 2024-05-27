@@ -1,0 +1,95 @@
+/* Reviews Start */
+
+#reviews {
+  margin-block-start: -6.5rem;
+  padding-block-start: 6.5rem;
+}
+
+.reviews,
+.reviews section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Reviews End */
+
+/* Submit Reviews Start */
+
+.submit-review form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.submit-review > form > fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 0;
+}
+
+.submit-review form fieldset legend {
+  padding-block-end: 1rem;
+  font-size: 1.5rem;
+}
+
+.submit-review .personal-info p {
+  display: grid;
+  grid-template-columns: 4rem auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.submit-review .personal-info input {
+  inline-size: 50%;
+}
+
+.submit-review .review-details p {
+  display: grid;
+  grid-template-columns: 4rem auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.submit-review .review-details textarea {
+  inline-size: 50%;
+}
+
+.review-preferences .preferences-question {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.review-preferences .review-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 0;
+}
+
+.review-preferences .review-features label {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.review-preferences .review-features input[type='checkbox'] {
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+
+.submit-review form button {
+  margin-block-start: 1rem;
+  font-size: 125%;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  color: var(--primary-color);
+  background-color: var(--nav-color);
+  /* margin-top: 1rem; */
+}
+
+/* Submit Reviews End */
