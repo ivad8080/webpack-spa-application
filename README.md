@@ -5,7 +5,7 @@ This project is a Single Page Application (SPA) developed with vanilla JavaScrip
 ## Project Structure
 
 ```
-webpack-spa/
+webpack-spa-application/
 ├── build/
 │ ├── images/
 │ │ ├── ultraphone.jpg
