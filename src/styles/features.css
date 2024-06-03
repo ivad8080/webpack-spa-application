@@ -23,6 +23,13 @@
   block-size: 480px;
   object-fit: cover;
   object-position: center;
+  filter: brightness(0.75) grayscale(0) saturate(0);
+  transition: filter 0.5s;
+  cursor: pointer;
+}
+
+.features .features-image img:hover {
+  filter: brightness(1.1) grayscale(0) saturate(3);
 }
 
 .features dl {
@@ -40,6 +47,11 @@
 
 .features dl dd {
   background-color: rgba(50, 50, 50, 20%);
+  transition: background-color 0.25s;
+}
+
+.features dl dd:hover {
+  background-color: rgba(50, 50, 50, 40%);
 }
 
 /* Features End */

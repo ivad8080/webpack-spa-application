@@ -29,6 +29,14 @@
   border: 0;
 }
 
+.submit-review > form input,
+.submit-review > form select,
+.submit-review > form textarea {
+  &:focus {
+    outline: 2px solid rgba(50, 50, 50, 60%);
+  }
+}
+
 .submit-review form fieldset legend {
   padding-block-end: 1rem;
   font-size: 1.5rem;
@@ -90,6 +98,12 @@
   color: var(--primary-color);
   background-color: var(--nav-color);
   /* margin-top: 1rem; */
+  filter: brightness(0.95) saturate(1);
+  transition: filter 0.25s;
+}
+
+.submit-review form button:hover {
+  filter: brightness(1.1) saturate(1.25);
 }
 
 /* Submit Reviews End */

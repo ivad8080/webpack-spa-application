@@ -37,6 +37,12 @@
   padding-inline: 2rem;
   color: var(--primary-color);
   background-color: var(--nav-color);
+  filter: brightness(0.95) saturate(1);
+  transition: filter 0.25s;
+}
+
+.about button:hover {
+  filter: brightness(1.1) saturate(1.25);
 }
 
 /* About End */
